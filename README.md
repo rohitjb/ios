@@ -17,6 +17,7 @@ Create a proof of concept for an App that displays trend articles and allow the 
 - URLSession
 - Autolayout
 - UIKit
+- Programmatic UI
 - RxSwift would be a bonus
 
 ## Key points under evaluation
