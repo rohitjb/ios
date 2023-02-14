@@ -20,7 +20,7 @@ struct SourceViewUseCase: SourceUseCase {
         self.repository = repository
     }
     
-    func callRepoForSources() {
+    private func callRepoForSources() {
         _ = repository.fetchSources(type: SourceResponse.self).subscribe(onNext: { result in
             switch result {
             case .success(let response):
