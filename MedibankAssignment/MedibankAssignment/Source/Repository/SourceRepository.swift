@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 
 enum SourceViewRepositoryConstant {
-    static let url = "https://newsapi.org/v2/top-headlines/sources?language=enapiKey=349f23b94c2649409401144183140fc0"
+    static let url = "https://newsapi.org/v2/top-headlines/sources?apiKey=349f23b94c2649409401144183140fc0"
 }
 
 protocol SourceURL {
