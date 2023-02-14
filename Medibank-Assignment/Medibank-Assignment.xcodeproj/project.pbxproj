@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA34C71299B39E700BEC06C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA34C70299B39E700BEC06C /* AppDelegate.swift */; };
+		CFA34C73299B39E700BEC06C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA34C72299B39E700BEC06C /* SceneDelegate.swift */; };
+		CFA34C75299B39E700BEC06C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA34C74299B39E700BEC06C /* ViewController.swift */; };
+		CFA34C78299B39E700BEC06C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA34C76299B39E700BEC06C /* Main.storyboard */; };
+		CFA34C7A299B39E900BEC06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA34C79299B39E900BEC06C /* Assets.xcassets */; };
+		CFA34C7D299B39E900BEC06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA34C7B299B39E900BEC06C /* LaunchScreen.storyboard */; };
+		CFA34C88299B39E900BEC06C /* Medibank_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA34C87299B39E900BEC06C /* Medibank_AssignmentTests.swift */; };
+		CFA34C92299B39E900BEC06C /* Medibank_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA34C91299B39E900BEC06C /* Medibank_AssignmentUITests.swift */; };
+		CFA34C94299B39E900BEC06C /* Medibank_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA34C93299B39E900BEC06C /* Medibank_AssignmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA34C84299B39E900BEC06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA34C65299B39E700BEC06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA34C6C299B39E700BEC06C;
+			remoteInfo = "Medibank-Assignment";
+		};
+		CFA34C8E299B39E900BEC06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA34C65299B39E700BEC06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA34C6C299B39E700BEC06C;
+			remoteInfo = "Medibank-Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFA34C6D299B39E700BEC06C /* Medibank-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medibank-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA34C70299B39E700BEC06C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFA34C72299B39E700BEC06C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFA34C74299B39E700BEC06C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFA34C77299B39E700BEC06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA34C79299B39E900BEC06C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA34C7C299B39E900BEC06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFA34C7E299B39E900BEC06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA34C83299B39E900BEC06C /* Medibank-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medibank-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA34C87299B39E900BEC06C /* Medibank_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medibank_AssignmentTests.swift; sourceTree = "<group>"; };
+		CFA34C8D299B39E900BEC06C /* Medibank-AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medibank-AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA34C91299B39E900BEC06C /* Medibank_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medibank_AssignmentUITests.swift; sourceTree = "<group>"; };
+		CFA34C93299B39E900BEC06C /* Medibank_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medibank_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA34C6A299B39E700BEC06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA34C80299B39E900BEC06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA34C8A299B39E900BEC06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA34C64299B39E700BEC06C = {
+			isa = PBXGroup;
+			children = (
+				CFA34C6F299B39E700BEC06C /* Medibank-Assignment */,
+				CFA34C86299B39E900BEC06C /* Medibank-AssignmentTests */,
+				CFA34C90299B39E900BEC06C /* Medibank-AssignmentUITests */,
+				CFA34C6E299B39E700BEC06C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA34C6E299B39E700BEC06C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA34C6D299B39E700BEC06C /* Medibank-Assignment.app */,
+				CFA34C83299B39E900BEC06C /* Medibank-AssignmentTests.xctest */,
+				CFA34C8D299B39E900BEC06C /* Medibank-AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA34C6F299B39E700BEC06C /* Medibank-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				CFA34C70299B39E700BEC06C /* AppDelegate.swift */,
+				CFA34C72299B39E700BEC06C /* SceneDelegate.swift */,
+				CFA34C74299B39E700BEC06C /* ViewController.swift */,
+				CFA34C76299B39E700BEC06C /* Main.storyboard */,
+				CFA34C79299B39E900BEC06C /* Assets.xcassets */,
+				CFA34C7B299B39E900BEC06C /* LaunchScreen.storyboard */,
+				CFA34C7E299B39E900BEC06C /* Info.plist */,
+			);
+			path = "Medibank-Assignment";
+			sourceTree = "<group>";
+		};
+		CFA34C86299B39E900BEC06C /* Medibank-AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA34C87299B39E900BEC06C /* Medibank_AssignmentTests.swift */,
+			);
+			path = "Medibank-AssignmentTests";
+			sourceTree = "<group>";
+		};
+		CFA34C90299B39E900BEC06C /* Medibank-AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA34C91299B39E900BEC06C /* Medibank_AssignmentUITests.swift */,
+				CFA34C93299B39E900BEC06C /* Medibank_AssignmentUITestsLaunchTests.swift */,
+			);
+			path = "Medibank-AssignmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA34C6C299B39E700BEC06C /* Medibank-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA34C97299B39E900BEC06C /* Build configuration list for PBXNativeTarget "Medibank-Assignment" */;
+			buildPhases = (
+				CFA34C69299B39E700BEC06C /* Sources */,
+				CFA34C6A299B39E700BEC06C /* Frameworks */,
+				CFA34C6B299B39E700BEC06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medibank-Assignment";
+			productName = "Medibank-Assignment";
+			productReference = CFA34C6D299B39E700BEC06C /* Medibank-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA34C82299B39E900BEC06C /* Medibank-AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA34C9A299B39E900BEC06C /* Build configuration list for PBXNativeTarget "Medibank-AssignmentTests" */;
+			buildPhases = (
+				CFA34C7F299B39E900BEC06C /* Sources */,
+				CFA34C80299B39E900BEC06C /* Frameworks */,
+				CFA34C81299B39E900BEC06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA34C85299B39E900BEC06C /* PBXTargetDependency */,
+			);
+			name = "Medibank-AssignmentTests";
+			productName = "Medibank-AssignmentTests";
+			productReference = CFA34C83299B39E900BEC06C /* Medibank-AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFA34C8C299B39E900BEC06C /* Medibank-AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA34C9D299B39E900BEC06C /* Build configuration list for PBXNativeTarget "Medibank-AssignmentUITests" */;
+			buildPhases = (
+				CFA34C89299B39E900BEC06C /* Sources */,
+				CFA34C8A299B39E900BEC06C /* Frameworks */,
+				CFA34C8B299B39E900BEC06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA34C8F299B39E900BEC06C /* PBXTargetDependency */,
+			);
+			name = "Medibank-AssignmentUITests";
+			productName = "Medibank-AssignmentUITests";
+			productReference = CFA34C8D299B39E900BEC06C /* Medibank-AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA34C65299B39E700BEC06C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CFA34C6C299B39E700BEC06C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CFA34C82299B39E900BEC06C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CFA34C6C299B39E700BEC06C;
+					};
+					CFA34C8C299B39E900BEC06C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CFA34C6C299B39E700BEC06C;
+					};
+				};
+			};
+			buildConfigurationList = CFA34C68299B39E700BEC06C /* Build configuration list for PBXProject "Medibank-Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA34C64299B39E700BEC06C;
+			productRefGroup = CFA34C6E299B39E700BEC06C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA34C6C299B39E700BEC06C /* Medibank-Assignment */,
+				CFA34C82299B39E900BEC06C /* Medibank-AssignmentTests */,
+				CFA34C8C299B39E900BEC06C /* Medibank-AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA34C6B299B39E700BEC06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA34C7D299B39E900BEC06C /* LaunchScreen.storyboard in Resources */,
+				CFA34C7A299B39E900BEC06C /* Assets.xcassets in Resources */,
+				CFA34C78299B39E700BEC06C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA34C81299B39E900BEC06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA34C8B299B39E900BEC06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA34C69299B39E700BEC06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA34C75299B39E700BEC06C /* ViewController.swift in Sources */,
+				CFA34C71299B39E700BEC06C /* AppDelegate.swift in Sources */,
+				CFA34C73299B39E700BEC06C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA34C7F299B39E900BEC06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA34C88299B39E900BEC06C /* Medibank_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA34C89299B39E900BEC06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA34C94299B39E900BEC06C /* Medibank_AssignmentUITestsLaunchTests.swift in Sources */,
+				CFA34C92299B39E900BEC06C /* Medibank_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA34C85299B39E900BEC06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA34C6C299B39E700BEC06C /* Medibank-Assignment */;
+			targetProxy = CFA34C84299B39E900BEC06C /* PBXContainerItemProxy */;
+		};
+		CFA34C8F299B39E900BEC06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA34C6C299B39E700BEC06C /* Medibank-Assignment */;
+			targetProxy = CFA34C8E299B39E900BEC06C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFA34C76299B39E700BEC06C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA34C77299B39E700BEC06C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFA34C7B299B39E900BEC06C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA34C7C299B39E900BEC06C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA34C95299B39E900BEC06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFA34C96299B39E900BEC06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA34C98299B39E900BEC06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Medibank-Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myassignment.Medibank-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA34C99299B39E900BEC06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Medibank-Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myassignment.Medibank-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFA34C9B299B39E900BEC06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myassignment.Medibank-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medibank-Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medibank-Assignment";
+			};
+			name = Debug;
+		};
+		CFA34C9C299B39E900BEC06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myassignment.Medibank-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medibank-Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medibank-Assignment";
+			};
+			name = Release;
+		};
+		CFA34C9E299B39E900BEC06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myassignment.Medibank-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Medibank-Assignment";
+			};
+			name = Debug;
+		};
+		CFA34C9F299B39E900BEC06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myassignment.Medibank-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Medibank-Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA34C68299B39E700BEC06C /* Build configuration list for PBXProject "Medibank-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA34C95299B39E900BEC06C /* Debug */,
+				CFA34C96299B39E900BEC06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA34C97299B39E900BEC06C /* Build configuration list for PBXNativeTarget "Medibank-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA34C98299B39E900BEC06C /* Debug */,
+				CFA34C99299B39E900BEC06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA34C9A299B39E900BEC06C /* Build configuration list for PBXNativeTarget "Medibank-AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA34C9B299B39E900BEC06C /* Debug */,
+				CFA34C9C299B39E900BEC06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA34C9D299B39E900BEC06C /* Build configuration list for PBXNativeTarget "Medibank-AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA34C9E299B39E900BEC06C /* Debug */,
+				CFA34C9F299B39E900BEC06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA34C65299B39E700BEC06C /* Project object */;
+}
